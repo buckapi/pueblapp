@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="assets/vendors/zuck_stories/zuck.min.css">
     <link rel="manifest" href="_manifest.json" />
 
+
 </head>
 
 <body>
@@ -35,6 +36,14 @@
     <section class="loader-page" id="loaderPage">
         <div class="spinner_flash"></div>
     </section>
+
+    <!-- ===================================
+    START FIXED BACKGROUND IMAGE
+    ==================================== -->
+    <section class="bg-gradient-started">
+        <div class="bg-noise"></div>
+    </section>
+
     <!-- START WRAPPER -->
     <div id="wrapper">
         <!-- START CONTENT -->
@@ -42,42 +51,13 @@
             <!-- ===================================
               START THE HEADER
             ==================================== -->
-            <header class="default heade-sticky border-b-gradient">
-                <a href="index.html">
-                    <div class="un-item-logo">
-                        <img class="logo-img light-mode" src="images/logo_b.svg" alt="">
-                        <img class="logo-img dark-mode" src="images/logo-white.svg" alt="">
-                    </div>
-                </a>
-
-                <!-- <div class="un-title-page">
-                    <h1>Discover</h1>
-                </div> -->
-                <!-- <div class="un-title-page go-back">
-                    <a href="javascript: void(0)" class="icon">
-                        <i class="ri-arrow-drop-left-line"></i>
+            <header class="default heade-sticky bg-transparent header-light">
+                <div class="un-item-logo">
+                    <a href="index.html">
+                        <img class="logo-img" src="images/logo-white.svg" alt="">
                     </a>
-                    <h1>Best Seller</h1>
-                </div> -->
-
+                </div>
                 <div class="un-block-right">
-
-                    <!-- <div class="un-notification">
-                        <a href="page-activity.html" aria-label="activity">
-                            <i class="ri-notification-line"></i>
-                        </a>
-                        <span class="bull-activity"></span>
-                    </div>
-
-                    <div class="un-user-profile">
-                        <a href="page-my-profile.html" aria-label="profile" >
-                            <picture>
-                                <source srcset="images/avatar/11.webp" type="image/webp">
-                                 <img class="img-avatar" src="images/avatar/11.jpg" alt="">
-                            </picture>
-                        </a>
-                    </div> -->
-
                     <!-- menu-sidebar -->
                     <div class="menu-sidebar">
                         <button type="button" name="sidebarMenu" aria-label="sidebarMenu" class="btn"
@@ -95,354 +75,201 @@
                 </div>
             </header>
             <!-- ===================================
-              START THE SPACE STICKY
+              START INFO ABOUT THE TEMPLATE
             ==================================== -->
-            <div class="space-sticky"></div>
-            <!-- ===================================
-              START THE BEST SELLER
-            ==================================== -->
-            <section class="un-section-seller margin-t-20">
-                <!-- un-title-default -->
-                <div class="un-title-default">
-                    <div class="text">
-                        <h2>Best Sellers</h2>
-                        <p>Best seller of this week's NFTs</p>
-                    </div>
-                    <div class="un-block-right">
-                        <a href="page-best-seller.html" class="icon-back" aria-label="iconBtn">
-                            <i class="ri-arrow-drop-right-line"></i>
-                        </a>
-                    </div>
+            <section class="un-info-template">
+                <div class="main-img-nft">
+                    <picture>
+                        <source srcset="images/other/3d_nfts.webp" type="image/webp">
+                        <img src="images/other/3d_nfts.png" alt="nft picture">
+                    </picture>
                 </div>
-                <!-- un-block-auther -->
-                <div class="un-block-creators margin-t-20">
-                    <!-- Swiper -->
-                    <div class="swiper swiperCreators">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <!-- un-item-seller -->
-                                <a href="page-creator-profile.html" class="un-item-seller">
-                                    <div class="number">
-                                        01
-                                    </div>
-                                    <div class="media-profile">
-                                        <figure class="image-avatar">
-                                            <picture>
-                                                <source srcset="images/avatar/22.webp" type="image/webp">
-                                                <img src="images/avatar/22.jpg" alt="">
-                                            </picture>
-                                            <div class="icon-verify">
-                                                <i class="ri-checkbox-circle-fill"></i>
-                                            </div>
-                                        </figure>
-                                        <div class="text">
-                                            <h3>MelonPixel⚡</h3>
-                                            <p>19.4 ETH</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- un-item-seller -->
-                                <a href="page-creator-profile.html" class="un-item-seller">
-                                    <div class="number">
-                                        02
-                                    </div>
-                                    <div class="media-profile">
-                                        <figure class="image-avatar">
-                                            <picture>
-                                                <source srcset="images/avatar/18.webp" type="image/webp">
-                                                <img src="images/avatar/18.jpg" alt="">
-                                            </picture>
-                                            <div class="icon-verify">
-                                                <i class="ri-checkbox-circle-fill"></i>
-                                            </div>
-                                        </figure>
-                                        <div class="text">
-                                            <h3>Camillo Ferrari</h3>
-                                            <p>5.3 ETH</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- un-item-seller -->
-                                <a href="page-creator-profile.html" class="un-item-seller">
-                                    <div class="number">
-                                        03
-                                    </div>
-                                    <div class="media-profile">
-                                        <figure class="image-avatar">
-                                            <picture>
-                                                <source srcset="images/avatar/14.webp" type="image/webp">
-                                                <img src="images/avatar/14.jpg" alt="">
-                                            </picture>
-                                            <div class="icon-verify">
-                                                <i class="ri-checkbox-circle-fill"></i>
-                                            </div>
-                                        </figure>
-                                        <div class="text">
-                                            <h3>🚀 Pingu</h3>
-                                            <p>3.9 ETH</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- un-item-seller -->
-                                <a href="page-creator-profile.html" class="un-item-seller">
-                                    <div class="number">
-                                        04
-                                    </div>
-                                    <div class="media-profile">
-                                        <figure class="image-avatar">
-                                            <picture>
-                                                <source srcset="images/avatar/5.webp" type="image/webp">
-                                                <img src="images/avatar/5.png" alt="">
-                                            </picture>
-                                            <div class="icon-verify">
-                                                <i class="ri-checkbox-circle-fill"></i>
-                                            </div>
-                                        </figure>
-                                        <div class="text">
-                                            <h3>Julian Co.</h3>
-                                            <p>2.8 ETH</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- un-item-seller -->
-                                <a href="page-creator-profile.html" class="un-item-seller">
-                                    <div class="number">
-                                        05
-                                    </div>
-                                    <div class="media-profile">
-                                        <figure class="image-avatar">
-                                            <picture>
-                                                <source srcset="images/avatar/13.webp" type="image/webp">
-                                                <img src="images/avatar/13.jpg" alt="">
-                                            </picture>
-                                            <div class="icon-verify">
-                                                <i class="ri-checkbox-circle-fill"></i>
-                                            </div>
-                                        </figure>
-                                        <div class="text">
-                                            <h3>Tito_Calab</h3>
-                                            <p>2.7 ETH</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                <div class="block-numbers">
+                    <div class="pages">
+                        <h2>45+</h2>
+                        <p>Page Packs</p>
+                    </div>
+                    <div class="dividar-y"></div>
+                    <div class="components">
+                        <h2>98+</h2>
+                        <p>Components</p>
                     </div>
                 </div>
             </section>
             <!-- ===================================
-              START THE NFT SWIPER
+              START PAGES LIST
             ==================================== -->
-            <section class="margin-t-20">
-                <div class="un-block-cards">
-                    <!-- Swiper -->
-                    <div class="swiper nftSwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <!-- item-card-nft -->
-                                <a href="page-collectibles-details.html" class="item-card-nft">
-                                    <picture>
-                                        <source srcset="images/other/11.webp" type="image/webp">
-                                        <img class="big-image" src="images/other/11.jpg" alt="">
-                                    </picture>
-                                    <div class="counterdown">
-                                        <span>08H</span>
-                                        <span>38M</span>
-                                        <span>16S</span>
+            <section class="un__listPages_started margin-t-30">
+                <div class="content">
+                    <div class="title">
+                        <h3>Unic - NFT Marketplace</h3>
+                        <p>
+                            We Include <span>Creativity</span> and <span>Professionalism</span> in Our Modern Pages for
+                            Ready Use.
+                        </p>
+                    </div>
+                    <div class="un-navMenu-default style_glass px-0">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="app-pages.html" class="nav-link background">
+                                    <div class="item-content-link">
+                                        <div class="icon">
+                                            <img src="images/icons/icon_page.png" alt="">
+                                        </div>
+                                        <h3 class="link-title">Page Packs</h3>
                                     </div>
-                                    <div class="un-info-card">
-                                        <div class="block-left">
-                                            <h4>Dark Side of Me</h4>
-                                            <div class="user">
-                                                <picture>
-                                                    <source srcset="images/avatar/19.webp" type="image/webp">
-                                                    <img class="img-avatar" src="images/avatar/19.jpg" alt="">
-                                                </picture>
-                                                <h5>Julian Co.</span>
-                                            </div>
+                                    <div class="other-cc">
+                                        <span class="badge-text">+45</span>
+                                        <div class="icon-arrow">
+                                            <i class="ri-arrow-drop-right-line"></i>
                                         </div>
-                                        <div class="block-right">
-                                            <h6>Starting Bid</h6>
-                                            <p>
-                                                <span>($3,650)</span>
-                                                1.50 ETH
-                                            </p>
-                                        </div>
-
                                     </div>
                                 </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- item-card-nft -->
-                                <a href="page-collectibles-details.html" class="item-card-nft">
-                                    <picture>
-                                        <source srcset="images/other/8.webp" type="image/webp">
-                                        <img class="big-image" src="images/other/8.jpg" alt="">
-                                    </picture>
-                                    <div class="counterdown">
-                                        <span>08H</span>
-                                        <span>38M</span>
-                                        <span>16S</span>
+                            </li>
+                            <li class="nav-item">
+                                <a href="app-homes.html" class="nav-link">
+                                    <div class="item-content-link">
+                                        <div class="icon">
+                                            <img src="images/icons/icon_homes.png" alt="">
+                                        </div>
+                                        <h3 class="link-title">Unic. Homes</h3>
                                     </div>
-                                    <div class="un-info-card">
-                                        <div class="block-left">
-                                            <h4>Ceres Searching</h4>
-                                            <div class="user">
-                                                <picture>
-                                                    <source srcset="images/avatar/8.webp" type="image/webp">
-                                                    <img class="img-avatar" src="images/avatar/8.png" alt="">
-                                                </picture>
-                                                <h5>Settimio Loggia</span>
-                                            </div>
+                                    <div class="other-cc">
+                                        <span class="badge-text xs-badge">3</span>
+                                        <div class="icon-arrow">
+                                            <i class="ri-arrow-drop-right-line"></i>
                                         </div>
-                                        <div class="block-right">
-                                            <h6>Starting Bid</h6>
-                                            <p>
-                                                <span>($3,650)</span>
-                                                1.50 ETH
-                                            </p>
-                                        </div>
-
                                     </div>
                                 </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- item-card-nft -->
-                                <a href="page-collectibles-details.html" class="item-card-nft">
-                                    <picture>
-                                        <source srcset="images/other/9.webp" type="image/webp">
-                                        <img class="big-image" src="images/other/9.jpg" alt="">
-                                    </picture>
-                                    <div class="counterdown">
-                                        <span>08H</span>
-                                        <span>38M</span>
-                                        <span>16S</span>
+                            </li>
+                            <li class="nav-item">
+                                <a href="app-components.html" class="nav-link">
+                                    <div class="item-content-link">
+                                        <div class="icon">
+                                            <img src="images/icons/icon_components.png" alt="">
+                                        </div>
+                                        <h3 class="link-title">Components</h3>
                                     </div>
-                                    <div class="un-info-card">
-                                        <div class="block-left">
-                                            <h4>Secret Door</h4>
-                                            <div class="user">
-                                                <picture>
-                                                    <source srcset="images/avatar/7.webp" type="image/webp">
-                                                    <img class="img-avatar" src="images/avatar/7.jpg" alt="">
-                                                </picture>
-                                                <h5>Ausonio_Loi</span>
-                                            </div>
+                                    <div class="other-cc">
+                                        <span class="badge-text">+98</span>
+                                        <div class="icon-arrow">
+                                            <i class="ri-arrow-drop-right-line"></i>
                                         </div>
-                                        <div class="block-right">
-                                            <h6>Starting Bid</h6>
-                                            <p>
-                                                <span>($3,650)</span>
-                                                2.24 ETH
-                                            </p>
-                                        </div>
-
                                     </div>
                                 </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- item-card-nft -->
-                                <a href="page-collectibles-details.html" class="item-card-nft">
-                                    <picture>
-                                        <source srcset="images/other/35.webp" type="image/webp">
-                                        <img class="big-image" src="images/other/35.jpg" alt="">
-                                    </picture>
-                                    <div class="counterdown">
-                                        <span>08H</span>
-                                        <span>38M</span>
-                                        <span>16S</span>
-                                    </div>
-                                    <div class="un-info-card">
-                                        <div class="block-left">
-                                            <h4>Secret Door</h4>
-                                            <div class="user">
-                                                <picture>
-                                                    <source srcset="images/avatar/10.webp" type="image/webp">
-                                                    <img class="img-avatar" src="images/avatar/10.jpg" alt="">
-                                                </picture>
-                                                <h5>Ausonio_Loi</span>
-                                            </div>
-                                        </div>
-                                        <div class="block-right">
-                                            <h6>Starting Bid</h6>
-                                            <p>
-                                                <span>($3,650)</span>
-                                                2.24 ETH
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </section>
+            <!-- ===================================
+              START THE SOME FEATURES
+            ==================================== -->
+            <section class="un_features_list">
+                <div class="content">
+                    <ul>
+                        <li>
+                            <div class="icon bg-green text-white">
+                                <i class="ri-command-line"></i>
+                            </div>
+                            <h4>Structured Files</h4>
+                            <p>
+                                Find what you're looking for with structured files.
+                            </p>
+                        </li>
+                        <li>
+                            <div class="icon bg-blue text-white">
+                                <i class="ri-switch-fill"></i>
+                            </div>
+                            <h4>PWA Ready</h4>
+                            <p>
+                                Add to the home screen and use it as an app.
+                            </p>
+                        </li>
+                        <li>
+                            <div class="icon bg-pink text-white">
+                                <i class="ri-artboard-2-line"></i>
+                            </div>
+                            <h4>Easy to Customize with Sass</h4>
+                            <p>
+                                We are using Sass for CSS. You can change colors, sizes on single file.
+                            </p>
+                        </li>
+                        <li>
+                            <div class="icon bg-orange text-white">
+                                <i class="ri-stack-line"></i>
+                            </div>
+                            <h4>Bootstrap 5 - Vanilla JS</h4>
+                            <p>
+                                You do not need to use jQuery
+                            </p>
+                        </li>
+                        <li>
+                            <div class="icon bg-secondary text-white">
+                                <i class="ri-toggle-line"></i>
+                            </div>
+                            <h4>Dark Mode is Awesome</h4>
+                            <p>
+                                Turn dark theme on and off with the switch
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- ===================================
+              START THE FOOTER - BUTTONS
+            ==================================== -->
+            <section class="bloack-get-started">
+                <div class="un-navMenu-default p-0">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="https://themeforest.net/item/unic-nft-mobile-template/36083774" target="_blank"
+                                class="nav-link bg-transparent">
+                                <div class="item-content-link">
+                                    <div class="icon text-white">
+                                        <i class="ri-shopping-bag-3-fill"></i>
+                                    </div>
+                                    <h3 class="link-title text-white">Get Unic. Today</h3>
+                                </div>
+                                <div class="other-cc">
+                                    <span class="badge-text">$24</span>
+                                    <div class="icon-arrow">
+                                        <i class="ri-arrow-drop-right-line"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="homepage.html" class="nav-link bg-primary">
+                                <div class="item-content-link">
+                                    <div class="icon text-white">
+                                        <i class="ri-home-5-fill"></i>
+                                    </div>
+                                    <h3 class="link-title text-white">Let's Start</h3>
+                                </div>
+                                <div class="other-cc">
+                                    <span class="badge-text text-white"></span>
+                                    <div class="icon-arrow text-white">
+                                        <i class="ri-arrow-drop-right-line"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- ===================================
+              START THE COPYRIGHT
+            ==================================== -->
+            <section class="copyright-mark">
+                <div class="content">
+                    <img class="logo-gray" src="images/logo-gray.svg" alt="image">
+                    <p>Copyright © Unic 2022</p>
+                </div>
+            </section>
+
         </div>
-        <!-- ===================================
-          START THE BOTTOM NAVIGATION
-        ==================================== -->
-        <footer class="un-bottom-navigation filter-blur">
-            <div class="em_body_navigation border-0 -active-links">
-                <div class="item_link">
-                    <a href="homepage.html" class="btn btn_navLink" aria-label="btnNavigation">
-                        <div class="icon_current">
-                            <i class="ri-home-5-line"></i>
-                        </div>
-                        <div class="icon_active">
-                            <i class="ri-home-5-fill"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="item_link">
-                    <a href="page-search-random.html" class="btn btn_navLink" aria-label="btnNavigation">
-                        <div class="icon_current">
-                            <i class="ri-search-2-line"></i>
-                        </div>
-                        <div class="icon_active">
-                            <i class="ri-search-2-fill"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="item_link">
-                    <button type="button" name="uploadItem" aria-label="uploadItem"
-                        class="btn btn_navLink without_active" data-bs-toggle="modal" data-bs-target="#mdllUploadItem"
-                        aria-label="btnNavigation">
-                        <div class="btn btnCircle_default">
-                            <i class="ri-add-line"></i>
-                        </div>
-                    </button>
-                </div>
-                <div class="item_link">
-                    <a href="page-favourit-random.html" class="btn btn_navLink" aria-label="btnNavigation">
-                        <div class="icon_current">
-                            <i class="ri-heart-3-line"></i>
-                        </div>
-                        <div class="icon_active">
-                            <i class="ri-heart-3-fill"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="item_link">
-                    <a href="page-account.html" class="btn btn_navLink" aria-label="btnNavigation">
-                        <div class="icon_current">
-                            <i class="ri-user-4-line"></i>
-                        </div>
-                        <div class="icon_active">
-                            <i class="ri-user-4-fill"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </footer>
+
     </div>
     <!-- ===================================
       START THE MODAL UPLOAD
